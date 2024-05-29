@@ -1,0 +1,24 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}

@@ -1,0 +1,33 @@
+[debug] [2024-05-29T06:33:49.591Z] ----------------------------------------------------------------------
+[debug] [2024-05-29T06:33:49.595Z] Command:       C:\EXTERNAL PROGRAMS\NodeJS\node.exe C:\Users\santh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-05-29T06:33:49.596Z] CLI Version:   13.10.2
+[debug] [2024-05-29T06:33:49.596Z] Platform:      win32
+[debug] [2024-05-29T06:33:49.597Z] Node Version:  v20.14.0
+[debug] [2024-05-29T06:33:49.597Z] Time:          Wed May 29 2024 12:03:49 GMT+0530 (India Standard Time)
+[debug] [2024-05-29T06:33:49.597Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-29T06:33:49.752Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-29T06:33:49.753Z] > authorizing via signed-in user (2005.santhoshsivakumar@gmail.com)
+[debug] [2024-05-29T06:33:49.754Z] [iam] checking project firespark-f172f for permissions ["firebase.projects.get"]
+[debug] [2024-05-29T06:33:49.758Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/firespark-f172f:testIamPermissions [none]
+[debug] [2024-05-29T06:33:49.758Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/firespark-f172f:testIamPermissions x-goog-quota-user=projects/firespark-f172f
+[debug] [2024-05-29T06:33:49.758Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/firespark-f172f:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-05-29T06:33:51.876Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/firespark-f172f:testIamPermissions 200
+[debug] [2024-05-29T06:33:51.877Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/firespark-f172f:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-05-29T06:33:51.878Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/firespark-f172f [none]
+[debug] [2024-05-29T06:33:52.789Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/firespark-f172f 200
+[debug] [2024-05-29T06:33:52.790Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/firespark-f172f {"projectId":"firespark-f172f","projectNumber":"764383141826","displayName":"FireSpark","name":"projects/firespark-f172f","resources":{"hostingSite":"firespark-f172f"},"state":"ACTIVE","etag":"1_8269f8d4-5139-4a45-aaf4-0c56a5ffa83b"}
+[info] 
+[info] === Serving from 'G:\the-asherbrook-06\Learning\The-Firebase-basics'...
+[info] 
+[debug] [2024-05-29T06:33:52.796Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/firespark-f172f/sites 
+[debug] [2024-05-29T06:33:54.629Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/firespark-f172f/sites 200
+[debug] [2024-05-29T06:33:54.630Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/firespark-f172f/sites {"sites":[{"name":"projects/firespark-f172f/sites/firespark-f172f","defaultUrl":"https://firespark-f172f.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-05-29T06:33:54.630Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/firespark-f172f/webApps/-/config [none]
+[debug] [2024-05-29T06:33:55.112Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/firespark-f172f/webApps/-/config 200
+[debug] [2024-05-29T06:33:55.113Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/firespark-f172f/webApps/-/config {"projectId":"firespark-f172f","storageBucket":"firespark-f172f.appspot.com","apiKey":"AIzaSyB43GePegvRhjv4s90VfC69q980LSPa68Y","authDomain":"firespark-f172f.firebaseapp.com","messagingSenderId":"764383141826"}
+[debug] [2024-05-29T06:33:55.129Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/firespark-f172f [none]
+[debug] [2024-05-29T06:33:55.498Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/firespark-f172f 200
+[debug] [2024-05-29T06:33:55.498Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/firespark-f172f {"projectId":"firespark-f172f","projectNumber":"764383141826","displayName":"FireSpark","name":"projects/firespark-f172f","resources":{"hostingSite":"firespark-f172f"},"state":"ACTIVE","etag":"1_8269f8d4-5139-4a45-aaf4-0c56a5ffa83b"}
+[info] i  hosting[firespark-f172f]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[firespark-f172f]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
